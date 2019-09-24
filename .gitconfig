@@ -1,0 +1,7 @@
+[credential]
+	helper = cache --timeout=3600
+[user]
+	name = Michal Grabarczyk
+	email = michalgrabarczyk@hotmail.com
+[core]
+	excludesfile = ~/.gitignore
