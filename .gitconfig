@@ -5,3 +5,6 @@
 	email = michalgrabarczyk@hotmail.com
 [core]
 	excludesfile = ~/.gitignore
+
+[credential "https://github.com"]
+	username = michalgrabarczyk
