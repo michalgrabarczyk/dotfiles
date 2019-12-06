@@ -67,6 +67,7 @@ alias ga='git add'
 alias gst='git status'
 alias gd='git diff'
 alias gci='git commit -m'
+alias grmb='function remove_branch(){ git push origin --delete $1; git branch -d $1; }; remove_branch'
 
 # ls aliases
 alias ls='ls -aFh --color=always'
