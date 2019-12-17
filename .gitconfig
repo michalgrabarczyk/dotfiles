@@ -8,3 +8,5 @@
 
 [credential "https://github.com"]
 	username = michalgrabarczyk
+[color]
+	ui = true
