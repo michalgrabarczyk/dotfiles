@@ -35,14 +35,14 @@ HISTCONTROL=ignoreboth:erasedups
 shopt -s histappend
 
 # expand the history size
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 export PATH=$PATH:$JAVA_HOME
 
 # Cuda
