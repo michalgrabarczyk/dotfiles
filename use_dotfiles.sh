@@ -11,6 +11,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     ln -sf "$SCRIPT_DIR"/.bashrc ~/.bashrc ; echo ".bashrc symlink created"
     ln -sf "$SCRIPT_DIR"/.gitconfig ~/.gitconfig ; echo ".gitconfig symlink created"
     ln -sf "$SCRIPT_DIR"/.gitignore ~/.gitignore ; echo ".gitignore symlink created"
+    ln -sf "$SCRIPT_DIR"/.emacs.d/ ~/.emacs.d ; echo ".emacs.d/ symlink created"
     
     echo "Creating symlinks done!"
 fi
