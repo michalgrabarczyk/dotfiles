@@ -5,6 +5,7 @@
 	email = michalgrabarczyk@hotmail.com
 [core]
 	excludesfile = ~/.gitignore
+	editor = emacs -nw -q
 
 [credential "https://github.com"]
 	username = michalgrabarczyk
